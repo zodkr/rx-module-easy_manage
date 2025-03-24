@@ -10,13 +10,6 @@ use Rhymix\Modules\EasyManage\Models\Config as ConfigModel;
 use BaseObject;
 use Context;
 
-/**
- * 운영도우미
- *
- * Copyright (c) zodkr
- *
- * Generated with https://www.poesis.dev/tools/rxmodulegen
- */
 class Admin extends Base
 {
 	/**

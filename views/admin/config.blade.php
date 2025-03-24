@@ -8,14 +8,14 @@
 </div>
 
 <ul class="x_nav x_nav-tabs">
-	<li @class(['x_active' => $act === 'dispEasy_manageAdminConfig'])>
-		<a href="@url(['module' => 'admin', 'act' => 'dispEasy_manageAdminConfig'])">{{ $lang->cmd_easy_manage_general_config }}</a>
+	<li @class(['x_active' => $act === 'dispEasyManageAdminConfig'])>
+		<a href="@url(['module' => 'admin', 'act' => 'dispEasyManageAdminConfig'])">{{ $lang->cmd_easy_manage_general_config }}</a>
 	</li>
 </ul>
 
 <form class="x_form-horizontal" action="./" method="post" id="easy_manage">
 	<input type="hidden" name="module" value="easy_manage" />
-	<input type="hidden" name="act" value="procEasy_manageAdminInsertConfig" />
+	<input type="hidden" name="act" value="procEasyManageAdminInsertConfig" />
 	<input type="hidden" name="success_return_url" value="{{ getRequestUriByServerEnviroment() }}" />
 	<input type="hidden" name="xe_validator_id" value="modules/easy_manage/views/admin/config/1" />
 
