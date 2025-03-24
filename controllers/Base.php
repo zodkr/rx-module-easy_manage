@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhymix\Modules\Easy_manage\Controllers;
+namespace Rhymix\Modules\EasyManage\Controllers;
 
 /**
  * 운영도우미

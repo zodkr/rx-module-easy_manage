@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhymix\Modules\Easy_manage\Controllers;
+namespace Rhymix\Modules\EasyManage\Controllers;
 
 /**
  * 운영도우미
@@ -22,7 +22,7 @@ class Read extends Base
 	/**
 	 * 글읽기 화면 예제
 	 */
-	public function dispEasy_manageRead()
+	public function dispEasyManageRead()
 	{
 		// 글번호 받아오기
 		$item_srl = \Context::get('item_srl');

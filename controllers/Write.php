@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhymix\Modules\Easy_manage\Controllers;
+namespace Rhymix\Modules\EasyManage\Controllers;
 
 /**
  * 운영도우미
@@ -22,7 +22,7 @@ class Write extends Base
 	/**
 	 * 글쓰기 화면 예제
 	 */
-	public function dispEasy_manageWrite()
+	public function dispEasyManageWrite()
 	{
 		// 뷰 파일명 지정
 		$this->setTemplateFile('write');
@@ -31,7 +31,7 @@ class Write extends Base
 	/**
 	 * 글쓰기 POST 액션 예제
 	 */
-	public function procEasy_manageWrite()
+	public function procEasyManageWrite()
 	{
 		// XE에서는 view와 controller로 분리되어 있었으나,
 		// 네임스페이스를 사용하여 각각의 클래스를 여러 개로 나눌 수 있게 되었으므로

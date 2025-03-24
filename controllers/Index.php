@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhymix\Modules\Easy_manage\Controllers;
+namespace Rhymix\Modules\EasyManage\Controllers;
 
 /**
  * 운영도우미
@@ -22,7 +22,7 @@ class Index extends Base
 	/**
 	 * 메인 화면 예제
 	 */
-	public function dispEasy_manageIndex()
+	public function dispEasyManageIndex()
 	{
 		// 뷰 파일명 지정
 		$this->setTemplateFile('index');

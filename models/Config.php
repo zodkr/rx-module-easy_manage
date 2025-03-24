@@ -1,6 +1,6 @@
 <?php
 
-namespace Rhymix\Modules\Easy_manage\Models;
+namespace Rhymix\Modules\EasyManage\Models;
 
 use ModuleController;
 use ModuleModel;
