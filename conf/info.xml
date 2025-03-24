@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">운영도우미</title>
+	<description xml:lang="ko">사이트 관리자가 운영하는데 있어 도움이 될만한 기능들이 들어가있습니다.</description>
+	<version>1.0.0</version>
+	<date>2025-03-24</date>
+	<category>service</category>
+	<author email_address="m@ake.kr" link="https://github.com/zodkr/rx-module-easy_manage">
+		<name xml:lang="ko">zodkr</name>
+	</author>
+</module>
